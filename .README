@@ -1,6 +1,11 @@
-make it in to a Q/A 
-make it that 10 random questions are selected
-make it so that all the 100 questions are shown in order 
-make it so that all the 100 questions are shown in randomly 
-make a counter that tell the user how many times have they been in the page 
-make a counter that tell the user how many time have they try out the mock exams 
+1make it so that all the 100 questions are shown in order (done)
+make a button that hides and shows all the buttons
+2make 4 button(radio buttons) one that is for answer correctly one for answer incorrectly and one that is for i dont know that answer or need to learn this answer and one to show and hide the answer
+3 make it so that all the 100 questions are shown in randomly
+4 make it that 10 random questions are selected
+5 make it in to a Q/A
+6 make a counter that tell the user how many times have they been in the page
+7 make a counter that tell the user how many time have they try out the mock exams
+8 use sockets to alert people using the page if there is any updates coming up or to give a message
+9 use identification email verification (this most likely will need a data base )
+10 if you are going to make a back-end make it in python(django) or use a graphQL

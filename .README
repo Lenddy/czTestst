@@ -9,3 +9,4 @@ make a button that hides and shows all the buttons
 8 use sockets to alert people using the page if there is any updates coming up or to give a message
 9 use identification email verification (this most likely will need a data base )
 10 if you are going to make a back-end make it in python(django) or use a graphQL
+11 make this into a react native app later too

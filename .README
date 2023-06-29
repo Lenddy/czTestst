@@ -1,7 +1,7 @@
-1make it so that all the 100 questions are shown in order (done)
-make a button that hides and shows all the buttons
-2make 4 button(radio buttons) one that is for answer correctly one for answer incorrectly and one that is for i dont know that answer or need to learn this answer and one to show and hide the answer
-3 make it so that all the 100 questions are shown in randomly
+2 make 4 button(radio buttons) one that is for answer correctly one for answer incorrectly and one that is for i dont know that answer or need to learn this answer and one to show and hide the answer
+
+make that multiple people(individual) or in teams are able to awnser and play together
+
 4 make it that 10 random questions are selected
 5 make it in to a Q/A
 6 make a counter that tell the user how many times have they been in the page
@@ -10,3 +10,8 @@ make a button that hides and shows all the buttons
 9 use identification email verification (this most likely will need a data base )
 10 if you are going to make a back-end make it in python(django) or use a graphQL
 11 make this into a react native app later too
+
+1make it so that all the 100 questions are shown in order (!!!!!!!done)
+make a button that hides and shows all the buttons (!!!!!!done)
+
+3 make it so that all the 100 questions are shown in randomly(!!!!!!!done)

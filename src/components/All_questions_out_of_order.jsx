@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import civicQuestions from "./QA_Object";
 
-const All_questions_in_order = () => {
+const All_questions_out_of_order = (props) => {
+	const { reload } = props;
 	const [showAll, setAllShow] = useState(false);
 	const [answerState, setAnswerState] = useState({});
+	const [ram, setRam] = useState([]);
 
 	const show_All_Answer = () => {
 		setAllShow(!showAll);
@@ -17,8 +19,17 @@ const All_questions_in_order = () => {
 	};
 
 	useEffect(() => {
-		civicQuestions;
-	}, []);
+		const shuffle = () => {
+			return Math.random() - 0.5;
+		};
+
+		const civicQuestionsCopy = [...civicQuestions];
+
+		setRam(civicQuestionsCopy.sort(shuffle));
+
+		console.log(civicQuestions);
+	}, [reload]);
+	// console.log(ram);
 
 	return (
 		<>
@@ -26,7 +37,7 @@ const All_questions_in_order = () => {
 				{showAll ? "Hide all Answer/s" : "Show all Answer/s"}
 			</button>
 
-			{civicQuestions.map((c) => {
+			{ram.map((c) => {
 				const isAwnserVisible = showAll || answerState[c.id]; // change to isAwnserVisible  and   answerState[]
 
 				return (
@@ -79,4 +90,4 @@ const All_questions_in_order = () => {
 	);
 };
 
-export default All_questions_in_order;
+export default All_questions_out_of_order;

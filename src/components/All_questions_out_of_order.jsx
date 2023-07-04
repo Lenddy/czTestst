@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import civicQuestions from "./QA_Object";
 
-const All_questions_out_of_order = (props) => {
-	const { reload } = props;
+const All_questions_out_of_order = () => {
+	// const { reload } = props;
 	const [showAll, setAllShow] = useState(false);
 	const [answerState, setAnswerState] = useState({});
 	const [ram, setRam] = useState([]);
@@ -28,7 +28,7 @@ const All_questions_out_of_order = (props) => {
 		setRam(civicQuestionsCopy.sort(shuffle));
 
 		console.log(civicQuestions);
-	}, [reload]);
+	}, []);
 	// console.log(ram);
 
 	return (
@@ -77,11 +77,11 @@ const All_questions_out_of_order = (props) => {
 						<button style={{ backgroundColor: "red" }}>
 							failed
 						</button>
-						<button style={{ backgroundColor: "green" }}>
-							pass
-						</button>
 						<button style={{ backgroundColor: "blue" }}>
 							not sure
+						</button>
+						<button style={{ backgroundColor: "green" }}>
+							pass
 						</button>
 					</div>
 				);

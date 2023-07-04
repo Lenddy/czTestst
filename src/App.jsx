@@ -7,10 +7,9 @@ import All_questions_out_of_order from "./components/All_questions_out_of_order"
 // import Test from "./components/Test";
 
 function App() {
-	// const [count, setCount] = useState(0);
-	const [reload, setReload] = useState(false);
+	// const [count, setCount] = useState(0)
 	const navigate = useNavigate();
-	const location = useLocation();
+	//const location = useLocation();//!!!!! you will use this if you want to know the url location that you are on a the moment
 	const brows = (url) => navigate(url);
 	// const locationCheck = () => {
 	// 	if (location == "/Random") {
@@ -19,9 +18,7 @@ function App() {
 	// };
 
 	const randomize = () => {
-		if (location.pathname == "/Random") {
-			setReload(!reload);
-		} else brows("/Random");
+		brows("/Random");
 	};
 
 	return (
@@ -52,7 +49,7 @@ function App() {
 					<Route
 						exact
 						path="/Random"
-						element={<All_questions_out_of_order reload={reload} />}
+						element={<All_questions_out_of_order />}
 					></Route>
 
 					{/* <Test /> */}

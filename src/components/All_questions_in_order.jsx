@@ -66,11 +66,11 @@ const All_questions_in_order = () => {
 						<button style={{ backgroundColor: "red" }}>
 							failed
 						</button>
-						<button style={{ backgroundColor: "green" }}>
-							pass
-						</button>
 						<button style={{ backgroundColor: "blue" }}>
 							not sure
+						</button>
+						<button style={{ backgroundColor: "green" }}>
+							pass
 						</button>
 					</div>
 				);

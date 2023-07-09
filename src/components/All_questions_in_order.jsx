@@ -63,14 +63,17 @@ const All_questions_in_order = () => {
 								? "Hide Answer/s"
 								: "Show Answer/s"}
 						</button>
-						<button style={{ backgroundColor: "red" }}>
-							failed
+						<button
+							// style={{ backgroundColor: "red" }}
+							className=" "
+						>
+							incorrect
 						</button>
 						<button style={{ backgroundColor: "blue" }}>
 							not sure
 						</button>
 						<button style={{ backgroundColor: "green" }}>
-							pass
+							Correct
 						</button>
 					</div>
 				);

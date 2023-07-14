@@ -10,6 +10,8 @@ make that multiple people(individual) or in teams are able to awnser and play to
 9 use identification email verification (this most likely will need a data base )
 10 if you are going to make a back-end make it in python(django) or use a graphQL
 11 make this into a react native app later too
+12 make a calligraphy writing exam
+make a reading part for the reading test
 
 1make it so that all the 100 questions are shown in order (!!!!!!!done)
 make a button that hides and shows all the buttons (!!!!!!done)
